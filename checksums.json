@@ -1,0 +1,462 @@
+[
+  {
+    "file": "data/evidence/scene1/ipn-rrt-star/planned_path.csv",
+    "sha256": "b7ee52ae7e0d1fb6599f252f70f032c922a5caaad0d4e4d3325a076f5bf00273",
+    "bytes": 958
+  },
+  {
+    "file": "data/evidence/scene1/ipn-rrt-star/planning_metadata.json",
+    "sha256": "6c5943f92dc6036a9f070d559d2c7bf2a92ff0d3a35ae869a77efc4554f7a112",
+    "bytes": 2090
+  },
+  {
+    "file": "data/evidence/scene1/ipn-rrt-star/recorded_trajectory.csv",
+    "sha256": "d95688ddfb2bdfabec6ec19ff9a24444fc66269f652434ceb39ab54a755db838",
+    "bytes": 18150
+  },
+  {
+    "file": "data/evidence/scene1/n-rrt-star/planned_path.csv",
+    "sha256": "7857687e98a0ae352bb5e9db2bc469c75a2313953acbcfb9ac4dbd9ce7196974",
+    "bytes": 1033
+  },
+  {
+    "file": "data/evidence/scene1/n-rrt-star/planning_metadata.json",
+    "sha256": "634ba596ebf3e697aa5cb318ae9c63d9fe94a4070ba98054543c1fa730a4acf1",
+    "bytes": 2091
+  },
+  {
+    "file": "data/evidence/scene1/n-rrt-star/recorded_trajectory.csv",
+    "sha256": "ed68fa9b686ff2ec709dc459abcb0fc58cdd1bd2485de02492f234572bf57567",
+    "bytes": 15389
+  },
+  {
+    "file": "data/evidence/scene1/nirrt-star/planned_path.csv",
+    "sha256": "3a2b25e614558f1f75d3d85075ab08e3c5c9260ad5ff6c9693177870950110dd",
+    "bytes": 934
+  },
+  {
+    "file": "data/evidence/scene1/nirrt-star/planning_metadata.json",
+    "sha256": "b54233788ee6d109a93502dd3f73a8af054b45a7044b24090f98ce6231995f8a",
+    "bytes": 2101
+  },
+  {
+    "file": "data/evidence/scene1/prog-rrt-star/planned_path.csv",
+    "sha256": "afa9dee5bd4556250b9dd42c51e8485b2f33fadd3cd1cc0f737e03213a7e96cd",
+    "bytes": 935
+  },
+  {
+    "file": "data/evidence/scene1/prog-rrt-star/planning_metadata.json",
+    "sha256": "59c3e1b7d004024b9acfdbdd6b7f0571ad0453e20757af8aaf8d50b2c136a695",
+    "bytes": 2234
+  },
+  {
+    "file": "data/evidence/scene1/prog-rrt-star/recorded_trajectory.csv",
+    "sha256": "92a26752e96c668b3f85a46ae7a6e292c20e69423ec1882e06daef6bf576aea6",
+    "bytes": 13851
+  },
+  {
+    "file": "data/evidence/scene1/prog-rrt-star-lazy/planned_path.csv",
+    "sha256": "59ed6af618c5b7609c8a7d0cbecd4426897d464a145801444fdc5cf1ca4a3039",
+    "bytes": 258
+  },
+  {
+    "file": "data/evidence/scene1/prog-rrt-star-lazy/planning_metadata.json",
+    "sha256": "be517fe5f8eba8c461c8d13799f4dca2da8b639ee19e970c87ed9c41e08de36c",
+    "bytes": 2229
+  },
+  {
+    "file": "data/evidence/scene1/prog-rrt-star-lazy/recorded_trajectory.csv",
+    "sha256": "e75430df6a0bf5d20cb4486ebe52c309e208a21c1a0949271f4d2e4642e81b6d",
+    "bytes": 16252
+  },
+  {
+    "file": "data/evidence/scene1/rrt-star/planned_path.csv",
+    "sha256": "3333394f0d579f72951bd0e94f95311e684439cf4ab0da7b813096d20e705191",
+    "bytes": 983
+  },
+  {
+    "file": "data/evidence/scene1/rrt-star/planning_metadata.json",
+    "sha256": "23caa5c43d934451c68234304d94c39e06ebdfa796d9838588c0f5c50ffe1bdc",
+    "bytes": 1985
+  },
+  {
+    "file": "data/evidence/scene1/rrt-star/recorded_trajectory.csv",
+    "sha256": "c3402c0278d351bb5fb73b97ecbc1316f752117d36a3db415f77085f649d340d",
+    "bytes": 24865
+  },
+  {
+    "file": "data/evidence/scene2/ipn-rrt-star/planned_path.csv",
+    "sha256": "d0cd6cddf5351974a721c2002c9d9fbef38b70bfe88f53cd8d4c1b7e876804f0",
+    "bytes": 1149
+  },
+  {
+    "file": "data/evidence/scene2/ipn-rrt-star/planning_metadata.json",
+    "sha256": "d29c8a9e7e4d374dba461c62dacc16a06dcbc77bc559fa17fe6b484cfef4ed2b",
+    "bytes": 2079
+  },
+  {
+    "file": "data/evidence/scene2/ipn-rrt-star/recorded_trajectory.csv",
+    "sha256": "09bfa1872da6e8efedf7687babfee2b8bb0a1a36c4f3bd5d418bdbe4d52aac80",
+    "bytes": 17719
+  },
+  {
+    "file": "data/evidence/scene2/n-rrt-star/planned_path.csv",
+    "sha256": "db7422c756c6754f7fdf45229b049c81c12a48e3f66ee73134aa19fe08cbf652",
+    "bytes": 1227
+  },
+  {
+    "file": "data/evidence/scene2/n-rrt-star/planning_metadata.json",
+    "sha256": "7e51be531424429ddf4b5ef724e8c2281b30839fc942a8f0413b6e6a357b223b",
+    "bytes": 2077
+  },
+  {
+    "file": "data/evidence/scene2/n-rrt-star/recorded_trajectory.csv",
+    "sha256": "5b998e36464c29c5edc29b35363ba3f49f62dac5dc2588a7137999e213516c37",
+    "bytes": 16922
+  },
+  {
+    "file": "data/evidence/scene2/nirrt-star/planned_path.csv",
+    "sha256": "3af51217528592e7cbe6d65dbe382d1ce293f1abea4e8c60b8bb9f0d7218e1e7",
+    "bytes": 1123
+  },
+  {
+    "file": "data/evidence/scene2/nirrt-star/planning_metadata.json",
+    "sha256": "4c120902e92e67f7865dbfeef5c4c52753fb2765348a6809d695f429acc06dd0",
+    "bytes": 2087
+  },
+  {
+    "file": "data/evidence/scene2/nirrt-star/recorded_trajectory.csv",
+    "sha256": "274112e219332c57635f0e762adac2112a91dd9997662204745ce919747bf3a7",
+    "bytes": 21797
+  },
+  {
+    "file": "data/evidence/scene2/prog-rrt-star/planned_path.csv",
+    "sha256": "2ea304f00e09fa285ed581a47911c1afd1b33e4fe0f97e46ad3e428abcc973bc",
+    "bytes": 1123
+  },
+  {
+    "file": "data/evidence/scene2/prog-rrt-star/planning_metadata.json",
+    "sha256": "795525947f5071c8c3480140b1a60bae374ad1c7d820e1623bd90af05e5de65e",
+    "bytes": 2227
+  },
+  {
+    "file": "data/evidence/scene2/prog-rrt-star/recorded_trajectory.csv",
+    "sha256": "fdbb96b5398633bcf4009252efe571ddd9ad056e342216ca689db14223fa1920",
+    "bytes": 21721
+  },
+  {
+    "file": "data/evidence/scene2/prog-rrt-star-lazy/planned_path.csv",
+    "sha256": "bcaa6b7071ae9b476ad83db5d80917b41b91a3c91fce5f79f4e2f904b2f6ce4a",
+    "bytes": 1123
+  },
+  {
+    "file": "data/evidence/scene2/prog-rrt-star-lazy/planning_metadata.json",
+    "sha256": "da393f29cd6e974b672442780ceaf414ec5658846ae38d110b961c8b3be7a011",
+    "bytes": 2219
+  },
+  {
+    "file": "data/evidence/scene2/prog-rrt-star-lazy/recorded_trajectory.csv",
+    "sha256": "4dbd8a5ffb048ae95186d5d7614cc6bf1e574b3853154aa4a077f8429edb2f3f",
+    "bytes": 15726
+  },
+  {
+    "file": "data/evidence/scene2/rrt-star/planned_path.csv",
+    "sha256": "b7efe7252918202b60829e3ea81a2855b888d8e356a1b3bbf9bf0f2d7ab23755",
+    "bytes": 1201
+  },
+  {
+    "file": "data/evidence/scene2/rrt-star/planning_metadata.json",
+    "sha256": "5da5d59a84cda5265f67b69f3826a9ed8c78b99cb8e4ecc82a4923496d2024d5",
+    "bytes": 1970
+  },
+  {
+    "file": "data/evidence/scene2/rrt-star/recorded_trajectory.csv",
+    "sha256": "738fe87cd17f2977210112238d2bba4b76d036c36571a6bb8a9d0eb4c2d3104b",
+    "bytes": 17975
+  },
+  {
+    "file": "data/maps/scene1.pgm",
+    "sha256": "949fffb8e569aef65f09d5f2385745818bde9795414d7e687ba269279b20ded7",
+    "bytes": 147508
+  },
+  {
+    "file": "data/maps/scene1.yaml",
+    "sha256": "28a9ba466736b65dcf3bebcfc21ca5255ac120c238bb3278a0b321c8324ac94d",
+    "bytes": 141
+  },
+  {
+    "file": "data/maps/scene2.pgm",
+    "sha256": "eff428fa952ff053d04a1370c228e18ccb41d86b918c978232a1bcf15b500223",
+    "bytes": 147508
+  },
+  {
+    "file": "data/maps/scene2.yaml",
+    "sha256": "cd4702dcf2f93db788b7232d03ad0982024a28e1670396cc74ffba9088cb917d",
+    "bytes": 141
+  },
+  {
+    "file": "data/planning_comparison.csv",
+    "sha256": "d3a9b2ca52c1ee5e860fc5dd7bc8b879dadb31d56368e63fd73bff826085f256",
+    "bytes": 984
+  },
+  {
+    "file": "data/run_records.json",
+    "sha256": "a3827c232fbc20950e35ed25ec424af5e16b81cc6acf2d2a9ccbe89deabe493f",
+    "bytes": 12897
+  },
+  {
+    "file": "data/video_manifest.json",
+    "sha256": "08f2d8e3bf1a4cee8319d49440ae72d41e1931bfb3abd3a0808e65c97b034175",
+    "bytes": 11030
+  },
+  {
+    "file": "docs/.nojekyll",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "file": "docs/images/scene1-ipn-rrt-star-poster.jpg",
+    "sha256": "64fea7868b99b6412b01990089d07e1ba15a834b192212b04dfb43a427cbc51c",
+    "bytes": 56398
+  },
+  {
+    "file": "docs/images/scene1-iterations.pdf",
+    "sha256": "9794f6fbb2463fda3af5c055feb1c5bb84e77c03a519c355a1bba72e116d1622",
+    "bytes": 14512
+  },
+  {
+    "file": "docs/images/scene1-iterations.png",
+    "sha256": "270b015c27a015ae20356c25e6eb5182d055dc8c33b6d6044609ad4308adbc9a",
+    "bytes": 55858
+  },
+  {
+    "file": "docs/images/scene1-iterations.svg",
+    "sha256": "532948fe14de59a4eccf9b95f473a81208f97acd84a621813db0f0cc165e0bc3",
+    "bytes": 9347
+  },
+  {
+    "file": "docs/images/scene1-n-rrt-star-poster.jpg",
+    "sha256": "89d89c93fe7cfd6b92c8411207e962c22236ea3ebd1e4ab09049da3dd9640c6a",
+    "bytes": 55922
+  },
+  {
+    "file": "docs/images/scene1-nirrt-star-poster.jpg",
+    "sha256": "b6d781c8f7e9ff6a9781623090e570ae942ebf29189bc32427d8d67789fdd247",
+    "bytes": 56493
+  },
+  {
+    "file": "docs/images/scene1-planned_length_m.pdf",
+    "sha256": "e774ab98923006d77b06ddef044294d5855194a639fbd5be1966633128732031",
+    "bytes": 15042
+  },
+  {
+    "file": "docs/images/scene1-planned_length_m.png",
+    "sha256": "62537800b29e649fd1decb23e01860c0d77ac96e02177f698ef23d5ec35ea2f1",
+    "bytes": 61840
+  },
+  {
+    "file": "docs/images/scene1-planned_length_m.svg",
+    "sha256": "9f8c228f062a11ecf6a39917c775bf492e641dca92818d7b4036cdc5bdbf7e51",
+    "bytes": 8947
+  },
+  {
+    "file": "docs/images/scene1-planning_time_s.pdf",
+    "sha256": "e3e1372d199a45921ae7727af63a433f6172b318fe4c7b407fa630d4213b4a74",
+    "bytes": 14030
+  },
+  {
+    "file": "docs/images/scene1-planning_time_s.png",
+    "sha256": "14496c19d41ae946877c1e5a614db70fa054dbeea5e88b1150200160392e0bb0",
+    "bytes": 56192
+  },
+  {
+    "file": "docs/images/scene1-planning_time_s.svg",
+    "sha256": "fb8461efb3520278a31ba629e96e74e3ed281fcb2a67c0614199603855d06c76",
+    "bytes": 8933
+  },
+  {
+    "file": "docs/images/scene1-prog-rrt-star-lazy-poster.jpg",
+    "sha256": "54e99914fe0f65979360441f1b58d1a264bb5d6df31e2b71102cc8af04d9b07c",
+    "bytes": 56999
+  },
+  {
+    "file": "docs/images/scene1-prog-rrt-star-poster.jpg",
+    "sha256": "f55e9f214e4e007fdec52237130746dfe4901104102f34248864b6ab1570d70f",
+    "bytes": 56074
+  },
+  {
+    "file": "docs/images/scene1-rrt-star-poster.jpg",
+    "sha256": "9992467e1ee00533ec69350c9717a6c0e5e75d0d951eeb0a51d3c3ee4bafdbe8",
+    "bytes": 56950
+  },
+  {
+    "file": "docs/images/scene1-trajectories.pdf",
+    "sha256": "9915155c0b8bdd8e68696d2bcdaa11b150f11a6c675c36d9d943f8cd4f74dadd",
+    "bytes": 33448
+  },
+  {
+    "file": "docs/images/scene1-trajectories.png",
+    "sha256": "fc1c7ac0220cd3acbaea8b7c24a04b3e16d13875c5b9bd1349ec6e121e25f657",
+    "bytes": 238358
+  },
+  {
+    "file": "docs/images/scene1-trajectories.svg",
+    "sha256": "28b256b881dc983610c68ed52c27c30531c8f6f278496d0d2fb8284889d33c00",
+    "bytes": 60390
+  },
+  {
+    "file": "docs/images/scene2-ipn-rrt-star-poster.jpg",
+    "sha256": "82e8174768bb76f3dc90100b67cca1bf53e376abae155c5b448d00e32130d30c",
+    "bytes": 60434
+  },
+  {
+    "file": "docs/images/scene2-iterations.pdf",
+    "sha256": "c59511cb60f44a2afc8165c556e002b94ad134584789345d66b71024a1474a75",
+    "bytes": 14391
+  },
+  {
+    "file": "docs/images/scene2-iterations.png",
+    "sha256": "aadd7b6cf02c02cf333972c40cba38dbb2969f0cffcd3eb0fcc0dfd06539084a",
+    "bytes": 60262
+  },
+  {
+    "file": "docs/images/scene2-iterations.svg",
+    "sha256": "d05cadbe36ba882cb1e0fe75e9d5702adaf12247028e501c52ab91bccae84504",
+    "bytes": 9775
+  },
+  {
+    "file": "docs/images/scene2-n-rrt-star-poster.jpg",
+    "sha256": "9e591cb809afbeb11d145d2edfa17c0ce46dc44b252428ae496e435de243129b",
+    "bytes": 59287
+  },
+  {
+    "file": "docs/images/scene2-nirrt-star-poster.jpg",
+    "sha256": "30af76bfde0f68d9b3ee699c46371884183a7d80c1b76e5b1e8a0bf79f91c104",
+    "bytes": 61270
+  },
+  {
+    "file": "docs/images/scene2-planned_length_m.pdf",
+    "sha256": "71fdc79d10decdc0925a2dd10009b9859b99d1fc620aef206520b2766ca42795",
+    "bytes": 15216
+  },
+  {
+    "file": "docs/images/scene2-planned_length_m.png",
+    "sha256": "605654a681f0d574458f8018a7b847903e6bbef0fdb2053f672a3fbd29f9beaf",
+    "bytes": 58903
+  },
+  {
+    "file": "docs/images/scene2-planned_length_m.svg",
+    "sha256": "f677ba485ed279bdc1f2f57d7d28502ba013c258d5c8330e6c83eea51f95eafe",
+    "bytes": 9791
+  },
+  {
+    "file": "docs/images/scene2-planning_time_s.pdf",
+    "sha256": "717c207083860d670e415cb7bee9e047eca1d3cd4d069c6d8a7193459f867aa1",
+    "bytes": 14092
+  },
+  {
+    "file": "docs/images/scene2-planning_time_s.png",
+    "sha256": "48719457e60a831de180ae5e33e323006b7edda9ab72a81a00a300d9f29f5e38",
+    "bytes": 59325
+  },
+  {
+    "file": "docs/images/scene2-planning_time_s.svg",
+    "sha256": "253c474f46b52d7eaa6b0758b3f31de99e390b71b4009398bb34c1e9ed5c10a1",
+    "bytes": 9789
+  },
+  {
+    "file": "docs/images/scene2-prog-rrt-star-lazy-poster.jpg",
+    "sha256": "751184016b2eb73e9aa8985700112f09435db73a0f2eb39660a4944dd3976654",
+    "bytes": 59049
+  },
+  {
+    "file": "docs/images/scene2-prog-rrt-star-poster.jpg",
+    "sha256": "38774c537fbb235b7c733855d2e82e0ad97499f4c34ea8b1f56ba7d789c195bd",
+    "bytes": 60644
+  },
+  {
+    "file": "docs/images/scene2-rrt-star-poster.jpg",
+    "sha256": "3dbf7b26d777f5eba9c17c22f1ce46a8b2db554fbb43c5de23292bdfe0df9cf8",
+    "bytes": 59417
+  },
+  {
+    "file": "docs/images/scene2-trajectories.pdf",
+    "sha256": "f165e2717776e80ef9c1cd53b60a72a5db3d15ba25945d08cd51623b55648658",
+    "bytes": 32846
+  },
+  {
+    "file": "docs/images/scene2-trajectories.png",
+    "sha256": "db80dd6dcdfc40d1b5e47f39d5146519e9838535a28b6e4f609bcd594e1b1584",
+    "bytes": 200667
+  },
+  {
+    "file": "docs/images/scene2-trajectories.svg",
+    "sha256": "6ec92cdb19a5682b49c6963f101e608a4a83064c9f0095da7fab5b7c6cd517d1",
+    "bytes": 56226
+  },
+  {
+    "file": "docs/index.html",
+    "sha256": "78d633d9fa98e32377818df02b06f624aec4cb296c3d30b7463a4f1519f4e1c7",
+    "bytes": 19391
+  },
+  {
+    "file": "docs/videos/scene1-ipn-rrt-star.mp4",
+    "sha256": "5155b8ae0941fef295f845bcb7bc38b0a09a9687987f14612d4b56b1a68d2d0b",
+    "bytes": 370468
+  },
+  {
+    "file": "docs/videos/scene1-n-rrt-star.mp4",
+    "sha256": "d30da8917cc2ae2ed590ea750fb921541546fad619e267f9ba537702439e51d2",
+    "bytes": 1449820
+  },
+  {
+    "file": "docs/videos/scene1-nirrt-star.mp4",
+    "sha256": "43b9cf3d82f05b528856a2746653a567acfcb49a8f8a988727d484e3442b3df0",
+    "bytes": 395636
+  },
+  {
+    "file": "docs/videos/scene1-prog-rrt-star-lazy.mp4",
+    "sha256": "43a22675b37b77afa59c4a56211a1faacf68aeb95f0240cfb5725a12c2348146",
+    "bytes": 1218774
+  },
+  {
+    "file": "docs/videos/scene1-prog-rrt-star.mp4",
+    "sha256": "0c9a215f99e8a50bc4f4a06b5a79d8b96b4a3fb6a8659a1e23f62cf3fa50bf41",
+    "bytes": 349626
+  },
+  {
+    "file": "docs/videos/scene1-rrt-star.mp4",
+    "sha256": "461fcccb5e468c3b3bd7dd8d8ce6a7858a9cce0b60190241eb678873ea67045d",
+    "bytes": 381013
+  },
+  {
+    "file": "docs/videos/scene2-ipn-rrt-star.mp4",
+    "sha256": "55b58c0c0f37c2aba0639ec466eb454f4fdddce6b68510671dafcb1f93363979",
+    "bytes": 387718
+  },
+  {
+    "file": "docs/videos/scene2-n-rrt-star.mp4",
+    "sha256": "547c03734e975e83ef6797106f1e5f3191dbdc74def7fa215860142539175133",
+    "bytes": 395999
+  },
+  {
+    "file": "docs/videos/scene2-nirrt-star.mp4",
+    "sha256": "e791cf0158c79b4477fec54b3570e5f0944051c71e62775ecb023a1914d80de3",
+    "bytes": 455540
+  },
+  {
+    "file": "docs/videos/scene2-prog-rrt-star-lazy.mp4",
+    "sha256": "f344724f14938c8fd306b5a0450c9633cb96ed619e42168ad76b518bcb001696",
+    "bytes": 490845
+  },
+  {
+    "file": "docs/videos/scene2-prog-rrt-star.mp4",
+    "sha256": "1120c28ffefbd8b8f21881a8fb8ef1b64b80d4ad92b03b42d248b253289e0d12",
+    "bytes": 359804
+  },
+  {
+    "file": "docs/videos/scene2-rrt-star.mp4",
+    "sha256": "2484abf2f5b66a7c936e5745f66cfebabe4c70e53c011ad4f1053affaaafe713",
+    "bytes": 646948
+  }
+]

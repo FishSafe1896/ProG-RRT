@@ -1,0 +1,66 @@
+{
+  "algorithm": "ipn_rrt_star",
+  "algorithm_label": "IPN-RRT*",
+  "planning_success": true,
+  "planner_success": true,
+  "validation_reason": "valid",
+  "pixel_validation_reason": "valid",
+  "world_validation_reason": "valid",
+  "planning_time_sec": 2.194129999999859,
+  "model_load_time_sec": 0.18060520000108227,
+  "reference_path_computation_time_sec": 0.05997860000024957,
+  "planning_time_excludes_model_load": true,
+  "planning_time_excludes_reference_path_computation": true,
+  "planned_path_sha256": "b7ee52ae7e0d1fb6599f252f70f032c922a5caaad0d4e4d3325a076f5bf00273",
+  "path_length_m": 2.840113339065512,
+  "path_length_px": 57.24758623363797,
+  "num_waypoints": 38,
+  "model_calls": 1,
+  "final_num_vertices": 687,
+  "sample_calls": 915,
+  "iteration_budget": 10000,
+  "termination_reason": "path_within_3pct_threshold",
+  "threshold_reached": true,
+  "path_len_threshold_percentage": 0.03,
+  "reference_path_length_px": 55.840620433565945,
+  "reference_path_length_m": 2.7920310216782975,
+  "reference_path_nodes": 44,
+  "path_len_threshold_px": 57.51583904657293,
+  "path_len_threshold_m": 2.8757919523286466,
+  "bundle_manifest_sha256": "ed7aeaf85edc45e80df5a66cd588d3f6200b6056da55ae98630f68c35cc4f745",
+  "weight_sha256": {
+    "ipn_paper_best_model.pth": "ee1ddbbf09ddcd613f4872532cb6d54ee54b0e2d96865c9903bad51deea6069a"
+  },
+  "device": "cuda",
+  "seed": 1314,
+  "pc_n_points": 2048,
+  "pc_over_sample_scale": 64,
+  "step_len_m": 0.1,
+  "step_len_px": 2.0,
+  "robot_radius_m": 0.09,
+  "safety_margin_m": 0.02,
+  "inflation_radius_m": 0.11,
+  "resolution_m_per_pixel": 0.05,
+  "start_world": [
+    0.0342598488552,
+    -0.00092384102769
+  ],
+  "goal_world": [
+    2.1622838974,
+    -0.0873587727547
+  ],
+  "start_pixel_center_xy": [
+    200.5,
+    184.5
+  ],
+  "goal_pixel_center_xy": [
+    243.5,
+    185.5
+  ],
+  "map_shape_hw": [
+    384,
+    384
+  ],
+  "free_cell_count_after_inflation": 2604,
+  "execution_note": "Windows offline planning; Raspberry Pi receives only the validated map-frame path."
+}

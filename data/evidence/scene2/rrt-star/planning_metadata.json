@@ -1,0 +1,64 @@
+{
+  "algorithm": "rrt_star",
+  "algorithm_label": "RRT*",
+  "planning_success": true,
+  "planner_success": true,
+  "validation_reason": "valid",
+  "pixel_validation_reason": "valid",
+  "world_validation_reason": "valid",
+  "planning_time_sec": 6.77257919999829,
+  "model_load_time_sec": 4.5000015234109014e-06,
+  "reference_path_computation_time_sec": 0.058269699999073055,
+  "planning_time_excludes_model_load": true,
+  "planning_time_excludes_reference_path_computation": true,
+  "planned_path_sha256": "b7efe7252918202b60829e3ea81a2855b888d8e356a1b3bbf9bf0f2d7ab23755",
+  "path_length_m": 3.3437061893175044,
+  "path_length_px": 67.43247794244816,
+  "num_waypoints": 46,
+  "model_calls": 0,
+  "final_num_vertices": 3820,
+  "sample_calls": 3860,
+  "iteration_budget": 10000,
+  "termination_reason": "path_within_3pct_threshold",
+  "threshold_reached": true,
+  "path_len_threshold_percentage": 0.03,
+  "reference_path_length_px": 65.698484809835,
+  "reference_path_length_m": 3.28492424049175,
+  "reference_path_nodes": 58,
+  "path_len_threshold_px": 67.66943935413005,
+  "path_len_threshold_m": 3.3834719677065026,
+  "bundle_manifest_sha256": "ed7aeaf85edc45e80df5a66cd588d3f6200b6056da55ae98630f68c35cc4f745",
+  "weight_sha256": {},
+  "device": "cuda",
+  "seed": 0,
+  "pc_n_points": 2048,
+  "pc_over_sample_scale": 64,
+  "step_len_m": 0.1,
+  "step_len_px": 2.0,
+  "robot_radius_m": 0.09,
+  "safety_margin_m": 0.02,
+  "inflation_radius_m": 0.11,
+  "resolution_m_per_pixel": 0.05,
+  "start_world": [
+    0.435017103698,
+    -1.9058751329
+  ],
+  "goal_world": [
+    3.25563573837,
+    -1.16417658329
+  ],
+  "start_pixel_center_xy": [
+    208.5,
+    222.5
+  ],
+  "goal_pixel_center_xy": [
+    265.5,
+    207.5
+  ],
+  "map_shape_hw": [
+    384,
+    384
+  ],
+  "free_cell_count_after_inflation": 3170,
+  "execution_note": "Windows offline planning; Raspberry Pi receives only the validated map-frame path."
+}

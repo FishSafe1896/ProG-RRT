@@ -1,0 +1,66 @@
+{
+  "algorithm": "nirrt_pointnet2_bfs",
+  "algorithm_label": "NIRRT*",
+  "planning_success": true,
+  "planner_success": true,
+  "validation_reason": "valid",
+  "pixel_validation_reason": "valid",
+  "world_validation_reason": "valid",
+  "planning_time_sec": 4.477154399999563,
+  "model_load_time_sec": 1.1689726999993582,
+  "reference_path_computation_time_sec": 0.06081780000022263,
+  "planning_time_excludes_model_load": true,
+  "planning_time_excludes_reference_path_computation": true,
+  "planned_path_sha256": "3a2b25e614558f1f75d3d85075ab08e3c5c9260ad5ff6c9693177870950110dd",
+  "path_length_m": 2.851199724581177,
+  "path_length_px": 57.48525561278381,
+  "num_waypoints": 37,
+  "model_calls": 9,
+  "final_num_vertices": 635,
+  "sample_calls": 762,
+  "iteration_budget": 10000,
+  "termination_reason": "path_within_3pct_threshold",
+  "threshold_reached": true,
+  "path_len_threshold_percentage": 0.03,
+  "reference_path_length_px": 55.840620433565945,
+  "reference_path_length_m": 2.7920310216782975,
+  "reference_path_nodes": 44,
+  "path_len_threshold_px": 57.51583904657293,
+  "path_len_threshold_m": 2.8757919523286466,
+  "bundle_manifest_sha256": "ed7aeaf85edc45e80df5a66cd588d3f6200b6056da55ae98630f68c35cc4f745",
+  "weight_sha256": {
+    "pointnet2_best_pointnet2_2d.pth": "9332fa39c845c34d7760c296e269bbe14258d55250ee537ddf453b04069cecf4"
+  },
+  "device": "cuda",
+  "seed": 1314,
+  "pc_n_points": 2048,
+  "pc_over_sample_scale": 64,
+  "step_len_m": 0.1,
+  "step_len_px": 2.0,
+  "robot_radius_m": 0.09,
+  "safety_margin_m": 0.02,
+  "inflation_radius_m": 0.11,
+  "resolution_m_per_pixel": 0.05,
+  "start_world": [
+    0.0342598488552,
+    -0.00092384102769
+  ],
+  "goal_world": [
+    2.1622838974,
+    -0.0873587727547
+  ],
+  "start_pixel_center_xy": [
+    200.5,
+    184.5
+  ],
+  "goal_pixel_center_xy": [
+    243.5,
+    185.5
+  ],
+  "map_shape_hw": [
+    384,
+    384
+  ],
+  "free_cell_count_after_inflation": 2604,
+  "execution_note": "Windows offline planning; Raspberry Pi receives only the validated map-frame path."
+}

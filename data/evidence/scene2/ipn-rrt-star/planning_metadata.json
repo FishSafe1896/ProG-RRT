@@ -1,0 +1,66 @@
+{
+  "algorithm": "ipn_rrt_star",
+  "algorithm_label": "IPN-RRT*",
+  "planning_success": true,
+  "planner_success": true,
+  "validation_reason": "valid",
+  "pixel_validation_reason": "valid",
+  "world_validation_reason": "valid",
+  "planning_time_sec": 16.4883708999987,
+  "model_load_time_sec": 0.18283940000037546,
+  "reference_path_computation_time_sec": 0.052458099999057595,
+  "planning_time_excludes_model_load": true,
+  "planning_time_excludes_reference_path_computation": true,
+  "planned_path_sha256": "d0cd6cddf5351974a721c2002c9d9fbef38b70bfe88f53cd8d4c1b7e876804f0",
+  "path_length_m": 3.3738275432449183,
+  "path_length_px": 67.64219632093402,
+  "num_waypoints": 44,
+  "model_calls": 1,
+  "final_num_vertices": 2899,
+  "sample_calls": 5247,
+  "iteration_budget": 10000,
+  "termination_reason": "path_within_3pct_threshold",
+  "threshold_reached": true,
+  "path_len_threshold_percentage": 0.03,
+  "reference_path_length_px": 65.698484809835,
+  "reference_path_length_m": 3.28492424049175,
+  "reference_path_nodes": 58,
+  "path_len_threshold_px": 67.66943935413005,
+  "path_len_threshold_m": 3.3834719677065026,
+  "bundle_manifest_sha256": "ed7aeaf85edc45e80df5a66cd588d3f6200b6056da55ae98630f68c35cc4f745",
+  "weight_sha256": {
+    "ipn_paper_best_model.pth": "ee1ddbbf09ddcd613f4872532cb6d54ee54b0e2d96865c9903bad51deea6069a"
+  },
+  "device": "cuda",
+  "seed": 0,
+  "pc_n_points": 2048,
+  "pc_over_sample_scale": 64,
+  "step_len_m": 0.1,
+  "step_len_px": 2.0,
+  "robot_radius_m": 0.09,
+  "safety_margin_m": 0.02,
+  "inflation_radius_m": 0.11,
+  "resolution_m_per_pixel": 0.05,
+  "start_world": [
+    0.435017103698,
+    -1.9058751329
+  ],
+  "goal_world": [
+    3.25563573837,
+    -1.16417658329
+  ],
+  "start_pixel_center_xy": [
+    208.5,
+    222.5
+  ],
+  "goal_pixel_center_xy": [
+    265.5,
+    207.5
+  ],
+  "map_shape_hw": [
+    384,
+    384
+  ],
+  "free_cell_count_after_inflation": 3170,
+  "execution_note": "Windows offline planning; Raspberry Pi receives only the validated map-frame path."
+}

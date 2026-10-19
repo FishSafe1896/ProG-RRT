@@ -1,0 +1,67 @@
+{
+  "algorithm": "prog_rrt_lazy",
+  "algorithm_label": "ProG-RRT*-Lazy",
+  "planning_success": true,
+  "planner_success": true,
+  "validation_reason": "valid",
+  "pixel_validation_reason": "valid",
+  "world_validation_reason": "valid",
+  "planning_time_sec": 1.628928399999495,
+  "model_load_time_sec": 0.19975119999980961,
+  "reference_path_computation_time_sec": 0.09267859999999928,
+  "planning_time_excludes_model_load": true,
+  "planning_time_excludes_reference_path_computation": true,
+  "planned_path_sha256": "59ed6af618c5b7609c8a7d0cbecd4426897d464a145801444fdc5cf1ca4a3039",
+  "path_length_m": 2.7921346404077267,
+  "path_length_px": 56.339594890600274,
+  "num_waypoints": 10,
+  "model_calls": 1,
+  "final_num_vertices": 25,
+  "sample_calls": 19,
+  "iteration_budget": 10000,
+  "termination_reason": "path_within_3pct_threshold",
+  "threshold_reached": true,
+  "path_len_threshold_percentage": 0.03,
+  "reference_path_length_px": 55.840620433565945,
+  "reference_path_length_m": 2.7920310216782975,
+  "reference_path_nodes": 44,
+  "path_len_threshold_px": 57.51583904657293,
+  "path_len_threshold_m": 2.8757919523286466,
+  "bundle_manifest_sha256": "ed7aeaf85edc45e80df5a66cd588d3f6200b6056da55ae98630f68c35cc4f745",
+  "weight_sha256": {
+    "ours_absolute_lff_backbone_last_model.pth": "a7fb69e422997a06407ec9d36047443eb21d59d16d937a42d35e47a29c98987b",
+    "ours_conditioned_5stage_best_model.pth": "65a8529d68379fde021f819812751b73ab97742ff895d3c1acf1fdd41c5073c7"
+  },
+  "device": "cuda",
+  "seed": 1314,
+  "pc_n_points": 2048,
+  "pc_over_sample_scale": 64,
+  "step_len_m": 0.1,
+  "step_len_px": 2.0,
+  "robot_radius_m": 0.09,
+  "safety_margin_m": 0.02,
+  "inflation_radius_m": 0.11,
+  "resolution_m_per_pixel": 0.05,
+  "start_world": [
+    0.0342598488552,
+    -0.00092384102769
+  ],
+  "goal_world": [
+    2.1622838974,
+    -0.0873587727547
+  ],
+  "start_pixel_center_xy": [
+    200.5,
+    184.5
+  ],
+  "goal_pixel_center_xy": [
+    243.5,
+    185.5
+  ],
+  "map_shape_hw": [
+    384,
+    384
+  ],
+  "free_cell_count_after_inflation": 2604,
+  "execution_note": "Windows offline planning; Raspberry Pi receives only the validated map-frame path."
+}
