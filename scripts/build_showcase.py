@@ -115,7 +115,7 @@ def video_cards(scene, rows, videos):
         cards.append(f'''<article class="video-card"><h4>{html.escape(row['method'])}</h4>
 <video controls playsinline preload="none" poster="{clip['poster_file']}"><source src="{clip['preview_file']}" type="video/mp4">Your browser does not support this video. Use the download links below.</video>
 <p class="video-metrics">{float(row['planned_length_m']):.4f} m · {float(row['planning_time_s']):.4f} s · {row['iterations']} iterations</p>
-<div class="card-links"><a href="{clip['preview_file']}" download>Download preview</a><a href="{clip['original_url']}">Original video</a></div></article>''')
+<div class="card-links"><a href="{clip['preview_file']}" download>Download video</a>{f'<a href="{clip["original_url"]}">Original file</a>' if clip.get('original_url') else ''}</div></article>''')
     return "".join(cards)
 
 
@@ -136,7 +136,12 @@ def main():
     for video in videos:
         slug = SLUGS[METHODS.index(video["method"])]
         video["release_asset"] = f'scene{video["scene_number"]}-{slug}' + ("" if video["primary"] else "-additional-edit1") + "-original.mp4"
-        video["original_url"] = f'https://raw.githubusercontent.com/FishSafe1896/ProG-RRT/original-videos/{video["release_asset"]}'
+        available = video["scene_number"] == 1 and video["primary"] and video["method"] in ("NIRRT*", "IPN-RRT*")
+        video["source_file_published"] = available
+        if available:
+            video["original_url"] = f'{REPO}/releases/download/robot-validation-v1/{video["release_asset"]}'
+        else:
+            video.pop("original_url", None)
         if video["primary"]:
             video["transformation"] = "1280-pixel width, 30 fps, H.264; no temporal crop or speed change"
     save_json(ROOT / "data/video_manifest.json", videos)

@@ -21,9 +21,8 @@ assert sum(bool(r["robot_record_present"]) for r in rows) == 11
 videos = json.loads((ROOT / "data/video_manifest.json").read_text(encoding="utf-8"))
 assert len(videos) == 14 and sum(v["primary"] for v in videos) == 12
 for video in videos:
-    if video["primary"]:
-        assert abs(video["duration_s"] - video["preview_duration_s"]) <= .08
-        assert (ROOT / "docs" / video["preview_file"]).is_file()
+    assert abs(video["duration_s"] - video["preview_duration_s"]) <= .08
+    assert (ROOT / "docs" / video["preview_file"]).is_file()
 checksums = json.loads((ROOT / "checksums.json").read_text(encoding="utf-8"))
 for item in checksums:
     path = ROOT / item["file"]

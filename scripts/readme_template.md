@@ -5,7 +5,7 @@ Supplementary materials for ProG-RRT* and ProG-RRT*-Lazy: robot demonstrations, 
 **Yuan Huang · Rongwei Chen**
 
 - [Project page and videos](https://fishsafe1896.github.io/ProG-RRT/): 12 main demonstrations and scene-specific comparisons.
-- [Original video files](https://github.com/FishSafe1896/ProG-RRT/tree/original-videos): 12 main recordings and two additional short edits.
+- [Video files](docs/videos/): 12 main demonstrations and two additional short edits, provided as duration-preserving playback copies.
 - [Planning measurements](data/planning_comparison.csv): full-precision values for all 12 runs.
 - [Data definitions and reproduction](DATA_GUIDE.md).
 
@@ -53,9 +53,9 @@ data/video_manifest.json    Video correspondence, durations, and SHA-256 hashes
 scripts/                    Verification and page-generation scripts
 ```
 
-Original videos are stored on the separate `original-videos` branch. Playback copies preserve the supplied duration, changing only resolution, frame rate, and encoding. Source experiment files remain unchanged. This repository distributes supplementary evidence; algorithm source and model weights are outside this release.
+Playback copies preserve the supplied duration, changing only resolution, frame rate, and encoding. The supplied high-bitrate source files remain in the local research archive; two source files are additionally available as release attachments. The video manifest distinguishes source hashes from published playback hashes and records source-file availability. This repository distributes supplementary evidence; algorithm source and model weights are outside this release.
 
-For a lightweight clone that excludes the original-video branch:
+To download the supplement:
 
 ```bash
 git clone --single-branch --branch main --depth 1 https://github.com/FishSafe1896/ProG-RRT.git
