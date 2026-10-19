@@ -113,9 +113,8 @@ def video_cards(scene, rows, videos):
     for row in rows:
         clip = next(v for v in videos if v["scene_number"] == scene and v["method"] == row["method"] and v["primary"])
         cards.append(f'''<article class="video-card"><h4>{html.escape(row['method'])}</h4>
-<video controls playsinline preload="none" poster="{clip['poster_file']}"><source src="{clip['preview_file']}" type="video/mp4">Your browser does not support this video. Use the download links below.</video>
-<p class="video-metrics">{float(row['planned_length_m']):.4f} m · {float(row['planning_time_s']):.4f} s · {row['iterations']} iterations</p>
-<div class="card-links"><a href="{clip['preview_file']}" download>Download video</a>{f'<a href="{clip["original_url"]}">Original file</a>' if clip.get('original_url') else ''}</div></article>''')
+<video controls playsinline preload="none" poster="{clip['poster_file']}"><source src="{clip['preview_file']}" type="video/mp4">Your browser does not support HTML video.</video>
+</article>''')
     return "".join(cards)
 
 
