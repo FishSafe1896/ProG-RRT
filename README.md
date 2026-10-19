@@ -1,25 +1,27 @@
-# 面向采样式路径规划的渐进点云引导与惰性验证
+# Progressive Point-Cloud Guidance with Lazy Validation for Sampling-Based Path Planning
 
-本仓库是 ProG-RRT* 与 ProG-RRT*-Lazy 的论文补充材料，展示两张真实场景地图上的规划对比、实车视频、路径图和可核对数据。
+Supplementary materials for ProG-RRT* and ProG-RRT*-Lazy: robot demonstrations, planned paths, recorded localization trajectories, and traceable planning measurements in two physical environments.
 
-- [打开中文展示网页](https://fishsafe1896.github.io/ProG-RRT/)：直接播放 12 段主视频、查看逐场景结果。
-- [下载原始视频](https://github.com/FishSafe1896/ProG-RRT/releases/tag/robot-validation-v1)：14 个原始文件，包含 12 段主视频和 2 段补充短剪辑。
-- [下载三项规划指标完整数据](data/planning_comparison.csv)。
-- [数据口径与复现说明](数据说明.md)。
+**Yuan Huang · Rongwei Chen**
 
-## 方法介绍
+- [Project page and videos](https://fishsafe1896.github.io/ProG-RRT/): 12 main demonstrations and scene-specific comparisons.
+- [Original video files](https://github.com/FishSafe1896/ProG-RRT/releases/tag/robot-validation-v1): 12 main recordings and two additional short edits.
+- [Planning measurements](data/planning_comparison.csv): full-precision values for all 12 runs.
+- [Data definitions and reproduction](DATA_GUIDE.md).
 
-ProGNet 对自由空间点云输出引导概率和五个路径阶段；ProG-RRT* 根据搜索树进度调节阶段采样偏好，初解后结合引导点与知情子集继续优化。ProG-RRT*-Lazy 增加阶段锚点和惰性图边验证，推迟候选连接的碰撞检查。两种方法每次规划只需一次 ProGNet 推理，实际可行性始终由几何碰撞检测决定。
+## Method
 
-对比方法名称与论文保持一致：RRT*、N-RRT*、NIRRT*、IPN-RRT*、ProG-RRT*、ProG-RRT*-Lazy。
+The Progressive Guidance Network (ProGNet) predicts guidance probabilities and five start-to-goal stages from free-space point clouds. ProG-RRT* adapts stage sampling to tree progress before the first solution, then combines cached guidance with informed sampling. ProG-RRT*-Lazy adds stage anchors and deferred graph-edge validation. Both variants use one ProGNet forward pass per planning query; geometric collision checking determines path feasibility.
 
-## 实车规划对比
+Method names follow the manuscript: RRT*, N-RRT*, NIRRT*, IPN-RRT*, ProG-RRT*, and ProG-RRT*-Lazy.
 
-三项指标越小越好。表格显示精确数据的四位小数，CSV 保留源文件的数值精度。每个场景、每种算法为一条部署规划记录。
+## Planning results for the robot demonstrations
 
-### 场景 1
+Lower is better for all three metrics. Tables round to four decimal places; the CSV preserves source precision. Each method has one deployment planning record per scene.
 
-| 算法 | 规划路径长度（米）↓ | 规划时间（秒）↓ | 迭代次数↓ |
+### Scene 1
+
+| Method | Planned length (m) ↓ | Planning time (s) ↓ | Iterations ↓ |
 | --- | ---: | ---: | ---: |
 | RRT* | 2.8503 | 2.9719 | 2244 |
 | N-RRT* | 2.8429 | 5.1966 | 3049 |
@@ -28,13 +30,13 @@ ProGNet 对自由空间点云输出引导概率和五个路径阶段；ProG-RRT*
 | ProG-RRT* | 2.8553 | 1.8637 | 484 |
 | ProG-RRT*-Lazy | 2.7921 | 1.6289 | 19 |
 
-![场景 1 规划与定位轨迹](docs/images/scene1-trajectories.png)
+![Scene 1: planned paths and recorded localization](docs/images/scene1-trajectories.png)
 
-[查看场景 1 的六种算法视频](https://fishsafe1896.github.io/ProG-RRT/#scene1)
+[Watch all six methods in Scene 1](https://fishsafe1896.github.io/ProG-RRT/#scene1)
 
-### 场景 2
+### Scene 2
 
-| 算法 | 规划路径长度（米）↓ | 规划时间（秒）↓ | 迭代次数↓ |
+| Method | Planned length (m) ↓ | Planning time (s) ↓ | Iterations ↓ |
 | --- | ---: | ---: | ---: |
 | RRT* | 3.3437 | 6.7726 | 3860 |
 | N-RRT* | 3.3468 | 15.0233 | 7016 |
@@ -43,26 +45,26 @@ ProGNet 对自由空间点云输出引导概率和五个路径阶段；ProG-RRT*
 | ProG-RRT* | 3.3476 | 7.2445 | 2564 |
 | ProG-RRT*-Lazy | 3.2934 | 2.1025 | 3075 |
 
-![场景 2 规划与定位轨迹](docs/images/scene2-trajectories.png)
+![Scene 2: planned paths and recorded localization](docs/images/scene2-trajectories.png)
 
-[查看场景 2 的六种算法视频](https://fishsafe1896.github.io/ProG-RRT/#scene2)
+[Watch all six methods in Scene 2](https://fishsafe1896.github.io/ProG-RRT/#scene2)
 
-## 数据含义
+## Measurement definitions
 
-`planned_length_m` 是导出规划折线的长度，单位米；`planning_time_s` 是离线规划调用时间，单位秒，不包含模型加载、A* 参考计算、绘图或传输；`iterations` 是实际规划迭代数。规划在内部路径代价达到栅格 A* 参考的 1.03 倍阈值，或达到 10,000 次迭代时停止。
+`planned_length_m` is the exported planned polyline length in metres. `planning_time_s` is offline planning-call time in seconds, excluding model loading, A* reference computation, plotting, and transfer. `iterations` is the actual planning iteration count. Planning stops at the internal threshold of 1.03 times the grid-A* reference cost or the 10,000-iteration limit.
 
-模型和规划运行于 Windows 端，机器人接收导出的路径并使用统一跟踪控制器执行。规划时间与实车行驶时间分别记录，视频播放时长也不等于这两项时间。本次材料中有 12 条规划记录和 11 份实车轨迹日志；场景 1 的 NIRRT* 日志缺失，不能将缺失日志当作算法失败。逐方法单次展示不构成重复试验统计比较。
+Models and planning run on a Windows host; the robot follows exported paths with a shared tracking controller. Planning time, navigation time, and edited-video duration are distinct. The archive contains 12 planning records and 11 robot trajectory logs. The Scene 1 NIRRT* trajectory log is missing; this is not counted as an algorithm failure. These individual deployments do not constitute a repeated-trial statistical comparison.
 
-## 文件索引
+## Repository contents
 
 ```text
-docs/                       中文展示网页、图片和播放版视频
-data/planning_comparison.csv 三项规划指标及原始方法键名
-data/run_records.json       扩展记录与实车日志完整性标记
-data/evidence/              原始路径、定位轨迹、所需规划元数据
-data/maps/                  两张原始栅格地图及相对路径配置
-data/video_manifest.json    原视频/播放版校验值和对应关系
-scripts/                   数据核验和展示页生成脚本
+docs/                       Project page, figures, and playback videos
+data/planning_comparison.csv Three planning metrics and source method keys
+data/run_records.json       Extended records and trajectory-log availability
+data/evidence/              Path CSVs, localization CSVs, and planning metadata
+data/maps/                  Occupancy maps and portable map configurations
+data/video_manifest.json    Video correspondence, durations, and SHA-256 hashes
+scripts/                    Verification and page-generation scripts
 ```
 
-原始视频通过仓库发布附件提供；播放版保留所提供视频的时长，只调整分辨率、帧率和编码参数。所有源实验文件均保留在原项目中，仓库展示使用副本。资料尚未包含模型源码和权重发布，不将其描述为完整算法代码开源。
+Original videos are distributed as release assets. Playback copies preserve the supplied duration, changing only resolution, frame rate, and encoding. Source experiment files remain unchanged. This repository distributes supplementary evidence; algorithm source and model weights are outside this release.

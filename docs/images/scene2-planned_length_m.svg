@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-19T21:10:28.465369</dc:date>
+    <dc:date>2026-10-19T21:31:58.161518</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -43,7 +43,7 @@ L 386.485876 24.165818
 L 386.485876 41.952502 
 L 129.6 41.952502 
 z
-" clip-path="url(#pfc338fcaec)" style="fill: #777f86"/>
+" clip-path="url(#p700903a068)" style="fill: #777f86"/>
    </g>
    <g id="patch_4">
     <path d="M 129.6 55.927754 
@@ -51,7 +51,7 @@ L 386.724298 55.927754
 L 386.724298 73.714438 
 L 129.6 73.714438 
 z
-" clip-path="url(#pfc338fcaec)" style="fill: #89929b"/>
+" clip-path="url(#p700903a068)" style="fill: #89929b"/>
    </g>
    <g id="patch_5">
     <path d="M 129.6 87.68969 
@@ -59,7 +59,7 @@ L 386.053169 87.68969
 L 386.053169 105.476374 
 L 129.6 105.476374 
 z
-" clip-path="url(#pfc338fcaec)" style="fill: #54839b"/>
+" clip-path="url(#p700903a068)" style="fill: #54839b"/>
    </g>
    <g id="patch_6">
     <path d="M 129.6 119.451626 
@@ -67,7 +67,7 @@ L 388.8 119.451626
 L 388.8 137.23831 
 L 129.6 137.23831 
 z
-" clip-path="url(#pfc338fcaec)" style="fill: #678a79"/>
+" clip-path="url(#p700903a068)" style="fill: #678a79"/>
    </g>
    <g id="patch_7">
     <path d="M 129.6 151.213562 
@@ -75,7 +75,7 @@ L 386.781241 151.213562
 L 386.781241 169.000246 
 L 129.6 169.000246 
 z
-" clip-path="url(#pfc338fcaec)" style="fill: #bf827f"/>
+" clip-path="url(#p700903a068)" style="fill: #bf827f"/>
    </g>
    <g id="patch_8">
     <path d="M 129.6 182.975498 
@@ -83,143 +83,143 @@ L 382.617203 182.975498
 L 382.617203 200.762182 
 L 129.6 200.762182 
 z
-" clip-path="url(#pfc338fcaec)" style="fill: #994f50"/>
+" clip-path="url(#p700903a068)" style="fill: #994f50"/>
    </g>
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
      <g id="line2d_1">
       <defs>
-       <path id="m196f5dba8f" d="M 0 0 
+       <path id="mff26e9fd62" d="M 0 0 
 L 0 3.5 
 " style="stroke: #000000; stroke-width: 0.8"/>
       </defs>
       <g>
-       <use xlink:href="#m196f5dba8f" x="129.6" y="209.592" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#mff26e9fd62" x="129.6" y="209.592" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_1">
-      <text style="font: 9px 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle" x="129.6" y="223.786375" transform="rotate(-0 129.6 223.786375)">0.0</text>
+      <text style="font: 9px 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="129.6" y="223.034031" transform="rotate(-0 129.6 223.034031)">0.0</text>
      </g>
     </g>
     <g id="xtick_2">
      <g id="line2d_2">
       <g>
-       <use xlink:href="#m196f5dba8f" x="168.013345" y="209.592" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#mff26e9fd62" x="168.013345" y="209.592" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_2">
-      <text style="font: 9px 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle" x="168.013345" y="223.786375" transform="rotate(-0 168.013345 223.786375)">0.5</text>
+      <text style="font: 9px 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="168.013345" y="223.034031" transform="rotate(-0 168.013345 223.034031)">0.5</text>
      </g>
     </g>
     <g id="xtick_3">
      <g id="line2d_3">
       <g>
-       <use xlink:href="#m196f5dba8f" x="206.426689" y="209.592" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#mff26e9fd62" x="206.426689" y="209.592" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_3">
-      <text style="font: 9px 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle" x="206.426689" y="223.786375" transform="rotate(-0 206.426689 223.786375)">1.0</text>
+      <text style="font: 9px 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="206.426689" y="223.034031" transform="rotate(-0 206.426689 223.034031)">1.0</text>
      </g>
     </g>
     <g id="xtick_4">
      <g id="line2d_4">
       <g>
-       <use xlink:href="#m196f5dba8f" x="244.840034" y="209.592" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#mff26e9fd62" x="244.840034" y="209.592" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_4">
-      <text style="font: 9px 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle" x="244.840034" y="223.786375" transform="rotate(-0 244.840034 223.786375)">1.5</text>
+      <text style="font: 9px 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="244.840034" y="223.034031" transform="rotate(-0 244.840034 223.034031)">1.5</text>
      </g>
     </g>
     <g id="xtick_5">
      <g id="line2d_5">
       <g>
-       <use xlink:href="#m196f5dba8f" x="283.253378" y="209.592" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#mff26e9fd62" x="283.253378" y="209.592" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_5">
-      <text style="font: 9px 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle" x="283.253378" y="223.786375" transform="rotate(-0 283.253378 223.786375)">2.0</text>
+      <text style="font: 9px 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="283.253378" y="223.034031" transform="rotate(-0 283.253378 223.034031)">2.0</text>
      </g>
     </g>
     <g id="xtick_6">
      <g id="line2d_6">
       <g>
-       <use xlink:href="#m196f5dba8f" x="321.666723" y="209.592" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#mff26e9fd62" x="321.666723" y="209.592" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_6">
-      <text style="font: 9px 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle" x="321.666723" y="223.786375" transform="rotate(-0 321.666723 223.786375)">2.5</text>
+      <text style="font: 9px 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="321.666723" y="223.034031" transform="rotate(-0 321.666723 223.034031)">2.5</text>
      </g>
     </g>
     <g id="xtick_7">
      <g id="line2d_7">
       <g>
-       <use xlink:href="#m196f5dba8f" x="360.080068" y="209.592" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#mff26e9fd62" x="360.080068" y="209.592" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_7">
-      <text style="font: 9px 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle" x="360.080068" y="223.786375" transform="rotate(-0 360.080068 223.786375)">3.0</text>
+      <text style="font: 9px 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="360.080068" y="223.034031" transform="rotate(-0 360.080068 223.034031)">3.0</text>
      </g>
     </g>
     <g id="xtick_8">
      <g id="line2d_8">
       <g>
-       <use xlink:href="#m196f5dba8f" x="398.493412" y="209.592" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#mff26e9fd62" x="398.493412" y="209.592" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_8">
-      <text style="font: 9px 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle" x="398.493412" y="223.786375" transform="rotate(-0 398.493412 223.786375)">3.5</text>
+      <text style="font: 9px 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="398.493412" y="223.034031" transform="rotate(-0 398.493412 223.034031)">3.5</text>
      </g>
     </g>
     <g id="xtick_9">
      <g id="line2d_9">
       <g>
-       <use xlink:href="#m196f5dba8f" x="436.906757" y="209.592" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#mff26e9fd62" x="436.906757" y="209.592" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_9">
-      <text style="font: 9px 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle" x="436.906757" y="223.786375" transform="rotate(-0 436.906757 223.786375)">4.0</text>
+      <text style="font: 9px 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="436.906757" y="223.034031" transform="rotate(-0 436.906757 223.034031)">4.0</text>
      </g>
     </g>
     <g id="text_10">
-     <text style="font: 9px 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle" x="287.712" y="237.218094" transform="rotate(-0 287.712 237.218094)">规划路径长度（米）</text>
+     <text style="font: 9px 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="287.712" y="235.3745" transform="rotate(-0 287.712 235.3745)">Planned path length (m)</text>
     </g>
    </g>
    <g id="matplotlib.axis_2">
     <g id="ytick_1">
      <g id="line2d_10"/>
      <g id="text_11">
-      <text style="font: 9px 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: end" x="126.1" y="36.656348" transform="rotate(-0 126.1 36.656348)">RRT*</text>
+      <text style="font: 9px 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="126.1" y="36.280176" transform="rotate(-0 126.1 36.280176)">RRT*</text>
      </g>
     </g>
     <g id="ytick_2">
      <g id="line2d_11"/>
      <g id="text_12">
-      <text style="font: 9px 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: end" x="126.1" y="68.418284" transform="rotate(-0 126.1 68.418284)">N-RRT*</text>
+      <text style="font: 9px 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="126.1" y="68.042112" transform="rotate(-0 126.1 68.042112)">N-RRT*</text>
      </g>
     </g>
     <g id="ytick_3">
      <g id="line2d_12"/>
      <g id="text_13">
-      <text style="font: 9px 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: end" x="126.1" y="100.18022" transform="rotate(-0 126.1 100.18022)">NIRRT*</text>
+      <text style="font: 9px 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="126.1" y="99.804048" transform="rotate(-0 126.1 99.804048)">NIRRT*</text>
      </g>
     </g>
     <g id="ytick_4">
      <g id="line2d_13"/>
      <g id="text_14">
-      <text style="font: 9px 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: end" x="126.1" y="131.942155" transform="rotate(-0 126.1 131.942155)">IPN-RRT*</text>
+      <text style="font: 9px 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="126.1" y="131.565984" transform="rotate(-0 126.1 131.565984)">IPN-RRT*</text>
      </g>
     </g>
     <g id="ytick_5">
      <g id="line2d_14"/>
      <g id="text_15">
-      <text style="font: 9px 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: end" x="126.1" y="163.704091" transform="rotate(-0 126.1 163.704091)">ProG-RRT*</text>
+      <text style="font: 9px 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="126.1" y="163.327919" transform="rotate(-0 126.1 163.327919)">ProG-RRT*</text>
      </g>
     </g>
     <g id="ytick_6">
      <g id="line2d_15"/>
      <g id="text_16">
-      <text style="font: 9px 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: end" x="126.1" y="195.440012" transform="rotate(-0 126.1 195.440012)">ProG-RRT*-Lazy</text>
+      <text style="font: 9px 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="126.1" y="195.144699" transform="rotate(-0 126.1 195.144699)">ProG-RRT*-Lazy</text>
      </g>
     </g>
    </g>
@@ -229,27 +229,27 @@ L 445.824 209.592
 " style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="text_17">
-    <text style="font: 9px 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: start" x="392.965876" y="35.537676" transform="rotate(-0 392.965876 35.537676)">3.3437</text>
+    <text style="font: 9px 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="392.965876" y="35.385801" transform="rotate(-0 392.965876 35.385801)">3.3437</text>
    </g>
    <g id="text_18">
-    <text style="font: 9px 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: start" x="393.204298" y="67.299612" transform="rotate(-0 393.204298 67.299612)">3.3468</text>
+    <text style="font: 9px 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="393.204298" y="67.147737" transform="rotate(-0 393.204298 67.147737)">3.3468</text>
    </g>
    <g id="text_19">
-    <text style="font: 9px 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: start" x="392.533169" y="99.061548" transform="rotate(-0 392.533169 99.061548)">3.3381</text>
+    <text style="font: 9px 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="392.533169" y="98.909673" transform="rotate(-0 392.533169 98.909673)">3.3381</text>
    </g>
    <g id="text_20">
-    <text style="font: 9px 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: start" x="395.28" y="130.823484" transform="rotate(-0 395.28 130.823484)">3.3738</text>
+    <text style="font: 9px 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="395.28" y="130.671609" transform="rotate(-0 395.28 130.671609)">3.3738</text>
    </g>
    <g id="text_21">
-    <text style="font: 9px 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: start" x="393.261241" y="162.585419" transform="rotate(-0 393.261241 162.585419)">3.3476</text>
+    <text style="font: 9px 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="393.261241" y="162.433544" transform="rotate(-0 393.261241 162.433544)">3.3476</text>
    </g>
    <g id="text_22">
-    <text style="font: 9px 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: start" x="389.097203" y="194.347355" transform="rotate(-0 389.097203 194.347355)">3.2934</text>
+    <text style="font: 9px 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="389.097203" y="194.19548" transform="rotate(-0 389.097203 194.19548)">3.2934</text>
    </g>
   </g>
  </g>
  <defs>
-  <clipPath id="pfc338fcaec">
+  <clipPath id="p700903a068">
    <rect x="129.6" y="15.336" width="316.224" height="194.256"/>
   </clipPath>
  </defs>

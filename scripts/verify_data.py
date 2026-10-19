@@ -1,4 +1,4 @@
-"""核对公开表格、逐次规划元数据、文件哈希和视频对应关系。"""
+"""Verify public measurements, per-run metadata, checksums, and video mappings."""
 import csv
 import hashlib
 import json
@@ -30,4 +30,4 @@ for item in checksums:
     with path.open("rb") as stream:
         assert hashlib.file_digest(stream, "sha256").hexdigest() == item["sha256"], item["file"]
     assert path.stat().st_size == item["bytes"]
-print("核验通过：12 条规划记录、11 份定位轨迹、12 段主视频及 2 段补充剪辑；所有文件校验值一致。")
+print("Verification passed: 12 planning records, 11 localization logs, 12 main clips and 2 additional edits; all checksums match.")

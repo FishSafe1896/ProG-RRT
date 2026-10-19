@@ -1,6 +1,6 @@
 [
   {
-    "scene": "场景 1",
+    "scene": "Scene 1",
     "method": "RRT*",
     "seed": 1314,
     "planning_success": true,
@@ -29,7 +29,7 @@
     "evidence_directory": "data/evidence/scene1/rrt-star"
   },
   {
-    "scene": "场景 1",
+    "scene": "Scene 1",
     "method": "N-RRT*",
     "seed": 1314,
     "planning_success": true,
@@ -58,7 +58,7 @@
     "evidence_directory": "data/evidence/scene1/n-rrt-star"
   },
   {
-    "scene": "场景 1",
+    "scene": "Scene 1",
     "method": "NIRRT*",
     "seed": 1314,
     "planning_success": true,
@@ -87,7 +87,7 @@
     "evidence_directory": "data/evidence/scene1/nirrt-star"
   },
   {
-    "scene": "场景 1",
+    "scene": "Scene 1",
     "method": "IPN-RRT*",
     "seed": 1314,
     "planning_success": true,
@@ -116,7 +116,7 @@
     "evidence_directory": "data/evidence/scene1/ipn-rrt-star"
   },
   {
-    "scene": "场景 1",
+    "scene": "Scene 1",
     "method": "ProG-RRT*",
     "seed": 1314,
     "planning_success": true,
@@ -145,7 +145,7 @@
     "evidence_directory": "data/evidence/scene1/prog-rrt-star"
   },
   {
-    "scene": "场景 1",
+    "scene": "Scene 1",
     "method": "ProG-RRT*-Lazy",
     "seed": 1314,
     "planning_success": true,
@@ -174,7 +174,7 @@
     "evidence_directory": "data/evidence/scene1/prog-rrt-star-lazy"
   },
   {
-    "scene": "场景 2",
+    "scene": "Scene 2",
     "method": "RRT*",
     "seed": 0,
     "planning_success": true,
@@ -203,7 +203,7 @@
     "evidence_directory": "data/evidence/scene2/rrt-star"
   },
   {
-    "scene": "场景 2",
+    "scene": "Scene 2",
     "method": "N-RRT*",
     "seed": 1314,
     "planning_success": true,
@@ -232,7 +232,7 @@
     "evidence_directory": "data/evidence/scene2/n-rrt-star"
   },
   {
-    "scene": "场景 2",
+    "scene": "Scene 2",
     "method": "NIRRT*",
     "seed": 1314,
     "planning_success": true,
@@ -261,7 +261,7 @@
     "evidence_directory": "data/evidence/scene2/nirrt-star"
   },
   {
-    "scene": "场景 2",
+    "scene": "Scene 2",
     "method": "IPN-RRT*",
     "seed": 0,
     "planning_success": true,
@@ -290,7 +290,7 @@
     "evidence_directory": "data/evidence/scene2/ipn-rrt-star"
   },
   {
-    "scene": "场景 2",
+    "scene": "Scene 2",
     "method": "ProG-RRT*",
     "seed": 1314,
     "planning_success": true,
@@ -319,7 +319,7 @@
     "evidence_directory": "data/evidence/scene2/prog-rrt-star"
   },
   {
-    "scene": "场景 2",
+    "scene": "Scene 2",
     "method": "ProG-RRT*-Lazy",
     "seed": 1314,
     "planning_success": true,

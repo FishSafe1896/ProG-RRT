@@ -196,18 +196,18 @@
   },
   {
     "file": "data/planning_comparison.csv",
-    "sha256": "d3a9b2ca52c1ee5e860fc5dd7bc8b879dadb31d56368e63fd73bff826085f256",
-    "bytes": 984
+    "sha256": "15555bbb132bf03f3ad5d92d5448351ca605da367d2465c99e48814aa305bd49",
+    "bytes": 972
   },
   {
     "file": "data/run_records.json",
-    "sha256": "a3827c232fbc20950e35ed25ec424af5e16b81cc6acf2d2a9ccbe89deabe493f",
-    "bytes": 12897
+    "sha256": "ee5955db6e1175b4a410b153b99326edf7c51f9f7b5f66cae9f254feb8916166",
+    "bytes": 12885
   },
   {
     "file": "data/video_manifest.json",
-    "sha256": "08f2d8e3bf1a4cee8319d49440ae72d41e1931bfb3abd3a0808e65c97b034175",
-    "bytes": 11030
+    "sha256": "97eed7031462b5cce67391493c5370c9832729e9b4807fd15e494f9da9976858",
+    "bytes": 10990
   },
   {
     "file": "docs/.nojekyll",
@@ -221,18 +221,18 @@
   },
   {
     "file": "docs/images/scene1-iterations.pdf",
-    "sha256": "9794f6fbb2463fda3af5c055feb1c5bb84e77c03a519c355a1bba72e116d1622",
-    "bytes": 14512
+    "sha256": "08d3ccf8d05068246071025de3870d4bcbc741929991c2bc845c4006ff36107b",
+    "bytes": 25042
   },
   {
     "file": "docs/images/scene1-iterations.png",
-    "sha256": "270b015c27a015ae20356c25e6eb5182d055dc8c33b6d6044609ad4308adbc9a",
-    "bytes": 55858
+    "sha256": "c360ee5a53e3ef3d6b12b2e0368c83132412dfdba2cb5136fa77c43e8ca50128",
+    "bytes": 55292
   },
   {
     "file": "docs/images/scene1-iterations.svg",
-    "sha256": "532948fe14de59a4eccf9b95f473a81208f97acd84a621813db0f0cc165e0bc3",
-    "bytes": 9347
+    "sha256": "4b54ca5f5dba0ce2aff695858da03c5dd3fe080edf2f64fb07061b44cfa30461",
+    "bytes": 9136
   },
   {
     "file": "docs/images/scene1-n-rrt-star-poster.jpg",
@@ -246,33 +246,33 @@
   },
   {
     "file": "docs/images/scene1-planned_length_m.pdf",
-    "sha256": "e774ab98923006d77b06ddef044294d5855194a639fbd5be1966633128732031",
-    "bytes": 15042
+    "sha256": "7d1ac71bc5a2d41eb4ebc266cbeb652b0afe2d5d5eb871559a180d3620055e59",
+    "bytes": 25284
   },
   {
     "file": "docs/images/scene1-planned_length_m.png",
-    "sha256": "62537800b29e649fd1decb23e01860c0d77ac96e02177f698ef23d5ec35ea2f1",
-    "bytes": 61840
+    "sha256": "bc8fdf0895e5f7f3f3b1c446ce43f0e3fdb1ee2bbf850f372eefafdf9fac5c8f",
+    "bytes": 61866
   },
   {
     "file": "docs/images/scene1-planned_length_m.svg",
-    "sha256": "9f8c228f062a11ecf6a39917c775bf492e641dca92818d7b4036cdc5bdbf7e51",
-    "bytes": 8947
+    "sha256": "7c88188f5e9d0e85b2393d95f2ea3f42c4282f0aeddffc3498b56cc737e457b0",
+    "bytes": 8737
   },
   {
     "file": "docs/images/scene1-planning_time_s.pdf",
-    "sha256": "e3e1372d199a45921ae7727af63a433f6172b318fe4c7b407fa630d4213b4a74",
-    "bytes": 14030
+    "sha256": "59919dbd121419f201a2b6ec632f342063d02a6a0b3bc857ef21b4696ef093b8",
+    "bytes": 25920
   },
   {
     "file": "docs/images/scene1-planning_time_s.png",
-    "sha256": "14496c19d41ae946877c1e5a614db70fa054dbeea5e88b1150200160392e0bb0",
-    "bytes": 56192
+    "sha256": "be6c8dddd9d2dad4eaf41e3019a8d4330f6ff5a92c0ae60ae29d221052bea90f",
+    "bytes": 56591
   },
   {
     "file": "docs/images/scene1-planning_time_s.svg",
-    "sha256": "fb8461efb3520278a31ba629e96e74e3ed281fcb2a67c0614199603855d06c76",
-    "bytes": 8933
+    "sha256": "2372a7d3a334d283ff4877d1ecbf779a591a3a14134fbf345efb2f284b08508f",
+    "bytes": 8723
   },
   {
     "file": "docs/images/scene1-prog-rrt-star-lazy-poster.jpg",
@@ -291,18 +291,18 @@
   },
   {
     "file": "docs/images/scene1-trajectories.pdf",
-    "sha256": "9915155c0b8bdd8e68696d2bcdaa11b150f11a6c675c36d9d943f8cd4f74dadd",
-    "bytes": 33448
+    "sha256": "2af425f83b20d4e97e6b73d40bac334e5ab4ffc7a2a31860e5f99ba2676bc034",
+    "bytes": 37977
   },
   {
     "file": "docs/images/scene1-trajectories.png",
-    "sha256": "fc1c7ac0220cd3acbaea8b7c24a04b3e16d13875c5b9bd1349ec6e121e25f657",
-    "bytes": 238358
+    "sha256": "29a18e347fa86498888e8fe3a8865294e2ef3fc328a7e665a8f9760d6a718c89",
+    "bytes": 222605
   },
   {
     "file": "docs/images/scene1-trajectories.svg",
-    "sha256": "28b256b881dc983610c68ed52c27c30531c8f6f278496d0d2fb8284889d33c00",
-    "bytes": 60390
+    "sha256": "1bbbb272a5f6383ffb65fd88759ff5808d2e86e306c9877fafe32897954f5436",
+    "bytes": 59366
   },
   {
     "file": "docs/images/scene2-ipn-rrt-star-poster.jpg",
@@ -311,18 +311,18 @@
   },
   {
     "file": "docs/images/scene2-iterations.pdf",
-    "sha256": "c59511cb60f44a2afc8165c556e002b94ad134584789345d66b71024a1474a75",
-    "bytes": 14391
+    "sha256": "6c36a3140b920c4b38689f5ba319209234a4d5624f07b3da8cf8bb27079c573d",
+    "bytes": 24460
   },
   {
     "file": "docs/images/scene2-iterations.png",
-    "sha256": "aadd7b6cf02c02cf333972c40cba38dbb2969f0cffcd3eb0fcc0dfd06539084a",
-    "bytes": 60262
+    "sha256": "1c1a2436a7a7b217a5335c2a050696699e9187cc3104b77526814ab342150e97",
+    "bytes": 59175
   },
   {
     "file": "docs/images/scene2-iterations.svg",
-    "sha256": "d05cadbe36ba882cb1e0fe75e9d5702adaf12247028e501c52ab91bccae84504",
-    "bytes": 9775
+    "sha256": "8c8c3b2492d6f9fe3217275537ffd324e93f52ec305f5cb4af99f296c629debe",
+    "bytes": 9554
   },
   {
     "file": "docs/images/scene2-n-rrt-star-poster.jpg",
@@ -336,33 +336,33 @@
   },
   {
     "file": "docs/images/scene2-planned_length_m.pdf",
-    "sha256": "71fdc79d10decdc0925a2dd10009b9859b99d1fc620aef206520b2766ca42795",
-    "bytes": 15216
+    "sha256": "b060acfe92f70a9e3ac634c117cd33d5b97a7d9a9ddbcd8d79f7c2d664ead8d2",
+    "bytes": 25903
   },
   {
     "file": "docs/images/scene2-planned_length_m.png",
-    "sha256": "605654a681f0d574458f8018a7b847903e6bbef0fdb2053f672a3fbd29f9beaf",
-    "bytes": 58903
+    "sha256": "f62f819c61078d93eb07f5ee98d829d01448fee390d1b18adc787b838e4f043a",
+    "bytes": 62420
   },
   {
     "file": "docs/images/scene2-planned_length_m.svg",
-    "sha256": "f677ba485ed279bdc1f2f57d7d28502ba013c258d5c8330e6c83eea51f95eafe",
-    "bytes": 9791
+    "sha256": "9f6715d0717a286bcfaee7a1f299db07e1c6fcf9a5d04c214e2425b90fc35863",
+    "bytes": 9561
   },
   {
     "file": "docs/images/scene2-planning_time_s.pdf",
-    "sha256": "717c207083860d670e415cb7bee9e047eca1d3cd4d069c6d8a7193459f867aa1",
-    "bytes": 14092
+    "sha256": "96971ad86cc69257eb4831e081efa1c065b7d65fff91b68361d9343779be7d2c",
+    "bytes": 25985
   },
   {
     "file": "docs/images/scene2-planning_time_s.png",
-    "sha256": "48719457e60a831de180ae5e33e323006b7edda9ab72a81a00a300d9f29f5e38",
-    "bytes": 59325
+    "sha256": "2ec094de4afb8aaae07820de9fe7c069b820167931a7ee712d614bc9dbc6c100",
+    "bytes": 60928
   },
   {
     "file": "docs/images/scene2-planning_time_s.svg",
-    "sha256": "253c474f46b52d7eaa6b0758b3f31de99e390b71b4009398bb34c1e9ed5c10a1",
-    "bytes": 9789
+    "sha256": "ec9af492a22833d09b38f2764f5f886a2e679297047c1008d544bc9e654acdad",
+    "bytes": 9559
   },
   {
     "file": "docs/images/scene2-prog-rrt-star-lazy-poster.jpg",
@@ -381,23 +381,23 @@
   },
   {
     "file": "docs/images/scene2-trajectories.pdf",
-    "sha256": "f165e2717776e80ef9c1cd53b60a72a5db3d15ba25945d08cd51623b55648658",
-    "bytes": 32846
+    "sha256": "431d8aa90a99a07f536febdf94878c4ff44a172d186e50492df6f137b88c49b0",
+    "bytes": 38123
   },
   {
     "file": "docs/images/scene2-trajectories.png",
-    "sha256": "db80dd6dcdfc40d1b5e47f39d5146519e9838535a28b6e4f609bcd594e1b1584",
-    "bytes": 200667
+    "sha256": "cf15e50b74056e9d57316df49cd7039e56cb54da7e0c5bcf53ce1b623e520d21",
+    "bytes": 180984
   },
   {
     "file": "docs/images/scene2-trajectories.svg",
-    "sha256": "6ec92cdb19a5682b49c6963f101e608a4a83064c9f0095da7fab5b7c6cd517d1",
-    "bytes": 56226
+    "sha256": "930c0ce9198e9b38e5850192c391aa430231983799371d94084782952cd716d5",
+    "bytes": 55492
   },
   {
     "file": "docs/index.html",
-    "sha256": "78d633d9fa98e32377818df02b06f624aec4cb296c3d30b7463a4f1519f4e1c7",
-    "bytes": 19391
+    "sha256": "dd157ddbb10c8fb742953ed2d9c3fab78978ecb97d788b6a25e8cda11dbbb8bd",
+    "bytes": 19649
   },
   {
     "file": "docs/videos/scene1-ipn-rrt-star.mp4",
