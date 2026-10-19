@@ -136,7 +136,7 @@ def main():
     for video in videos:
         slug = SLUGS[METHODS.index(video["method"])]
         video["release_asset"] = f'scene{video["scene_number"]}-{slug}' + ("" if video["primary"] else "-additional-edit1") + "-original.mp4"
-        video["original_url"] = f'{REPO}/releases/download/robot-validation-v1/{video["release_asset"]}'
+        video["original_url"] = f'https://raw.githubusercontent.com/FishSafe1896/ProG-RRT/original-videos/{video["release_asset"]}'
         if video["primary"]:
             video["transformation"] = "1280-pixel width, 30 fps, H.264; no temporal crop or speed change"
     save_json(ROOT / "data/video_manifest.json", videos)

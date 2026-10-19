@@ -206,8 +206,8 @@
   },
   {
     "file": "data/video_manifest.json",
-    "sha256": "97eed7031462b5cce67391493c5370c9832729e9b4807fd15e494f9da9976858",
-    "bytes": 10990
+    "sha256": "a6ca1af8cf044f70fb1141a69f659274a837161ab6abeda3b3987404e4f43ad2",
+    "bytes": 10892
   },
   {
     "file": "docs/.nojekyll",
@@ -221,7 +221,7 @@
   },
   {
     "file": "docs/images/scene1-iterations.pdf",
-    "sha256": "08d3ccf8d05068246071025de3870d4bcbc741929991c2bc845c4006ff36107b",
+    "sha256": "fd231ed95773bfd26843d6bbad56a16b1e828dcbd75f86cb068351b3a3e5605a",
     "bytes": 25042
   },
   {
@@ -231,7 +231,7 @@
   },
   {
     "file": "docs/images/scene1-iterations.svg",
-    "sha256": "4b54ca5f5dba0ce2aff695858da03c5dd3fe080edf2f64fb07061b44cfa30461",
+    "sha256": "50b2928789886d7e84d766790af023be20676bb635f67d39a40440e60839f605",
     "bytes": 9136
   },
   {
@@ -246,7 +246,7 @@
   },
   {
     "file": "docs/images/scene1-planned_length_m.pdf",
-    "sha256": "7d1ac71bc5a2d41eb4ebc266cbeb652b0afe2d5d5eb871559a180d3620055e59",
+    "sha256": "ef1566b6b2aa37d6ca54f537578cef87b89c3fadcb31eb3cfb821fc87c0145bb",
     "bytes": 25284
   },
   {
@@ -256,12 +256,12 @@
   },
   {
     "file": "docs/images/scene1-planned_length_m.svg",
-    "sha256": "7c88188f5e9d0e85b2393d95f2ea3f42c4282f0aeddffc3498b56cc737e457b0",
+    "sha256": "9f9e1135f356589f442198991a9a7bfaa92a2d195084bee460b646adc47b475a",
     "bytes": 8737
   },
   {
     "file": "docs/images/scene1-planning_time_s.pdf",
-    "sha256": "59919dbd121419f201a2b6ec632f342063d02a6a0b3bc857ef21b4696ef093b8",
+    "sha256": "c7ccf26afaff1eb5af8fca0e7bd1eb47a365f664652798c5391f8d4b94c11583",
     "bytes": 25920
   },
   {
@@ -271,7 +271,7 @@
   },
   {
     "file": "docs/images/scene1-planning_time_s.svg",
-    "sha256": "2372a7d3a334d283ff4877d1ecbf779a591a3a14134fbf345efb2f284b08508f",
+    "sha256": "c516cfbeeac9acb3a044f8b99bbdda2d0edcb0159249a47c64490d50ee01e919",
     "bytes": 8723
   },
   {
@@ -291,7 +291,7 @@
   },
   {
     "file": "docs/images/scene1-trajectories.pdf",
-    "sha256": "2af425f83b20d4e97e6b73d40bac334e5ab4ffc7a2a31860e5f99ba2676bc034",
+    "sha256": "b408b6ae980e2310dec304f2cd372198bc9d34e6b2b8ff7770345c1cd1f857ca",
     "bytes": 37977
   },
   {
@@ -301,7 +301,7 @@
   },
   {
     "file": "docs/images/scene1-trajectories.svg",
-    "sha256": "1bbbb272a5f6383ffb65fd88759ff5808d2e86e306c9877fafe32897954f5436",
+    "sha256": "059cfc4924f167aeccc0b7e13af64774abcea15836266ea8fb733cf79849db62",
     "bytes": 59366
   },
   {
@@ -311,7 +311,7 @@
   },
   {
     "file": "docs/images/scene2-iterations.pdf",
-    "sha256": "6c36a3140b920c4b38689f5ba319209234a4d5624f07b3da8cf8bb27079c573d",
+    "sha256": "c5eac1fccbc5c49091e8e2f52868eb0ae71e0a669049fa71b314a06a240ee30b",
     "bytes": 24460
   },
   {
@@ -321,7 +321,7 @@
   },
   {
     "file": "docs/images/scene2-iterations.svg",
-    "sha256": "8c8c3b2492d6f9fe3217275537ffd324e93f52ec305f5cb4af99f296c629debe",
+    "sha256": "b7d5a480c3526f71ea1b9c014ec1b92addd10d872157bcae9f11e44a735aab5d",
     "bytes": 9554
   },
   {
@@ -336,7 +336,7 @@
   },
   {
     "file": "docs/images/scene2-planned_length_m.pdf",
-    "sha256": "b060acfe92f70a9e3ac634c117cd33d5b97a7d9a9ddbcd8d79f7c2d664ead8d2",
+    "sha256": "7076215dcc219a5e7c8f9aba4c2f422639ca9a90c31c51e54c7e7fc82a858c39",
     "bytes": 25903
   },
   {
@@ -346,12 +346,12 @@
   },
   {
     "file": "docs/images/scene2-planned_length_m.svg",
-    "sha256": "9f6715d0717a286bcfaee7a1f299db07e1c6fcf9a5d04c214e2425b90fc35863",
+    "sha256": "2760574c989fe8f61eec48370cbcac5ec0951c82722f90e5e68134030eef9b89",
     "bytes": 9561
   },
   {
     "file": "docs/images/scene2-planning_time_s.pdf",
-    "sha256": "96971ad86cc69257eb4831e081efa1c065b7d65fff91b68361d9343779be7d2c",
+    "sha256": "9ee1e4f43014355c82ec01e589616e36b90662f71a137d5e0be1d27075b1867b",
     "bytes": 25985
   },
   {
@@ -361,7 +361,7 @@
   },
   {
     "file": "docs/images/scene2-planning_time_s.svg",
-    "sha256": "ec9af492a22833d09b38f2764f5f886a2e679297047c1008d544bc9e654acdad",
+    "sha256": "9e494b8f5919213555281a808f6dc9f511df7ce6561f73ddf766e2bb9b057dac",
     "bytes": 9559
   },
   {
@@ -381,7 +381,7 @@
   },
   {
     "file": "docs/images/scene2-trajectories.pdf",
-    "sha256": "431d8aa90a99a07f536febdf94878c4ff44a172d186e50492df6f137b88c49b0",
+    "sha256": "1af8f6bb624de36788b29647fafe76a5927c236da18761291ea41a8dbaf42db2",
     "bytes": 38123
   },
   {
@@ -391,13 +391,13 @@
   },
   {
     "file": "docs/images/scene2-trajectories.svg",
-    "sha256": "930c0ce9198e9b38e5850192c391aa430231983799371d94084782952cd716d5",
+    "sha256": "e6a047a3ac78d551f5f5e3bdf9fbdd2b0212dd07ab690cc0a75f2fd5b483341e",
     "bytes": 55492
   },
   {
     "file": "docs/index.html",
-    "sha256": "dd157ddbb10c8fb742953ed2d9c3fab78978ecb97d788b6a25e8cda11dbbb8bd",
-    "bytes": 19649
+    "sha256": "891f0588f4b47bfede0e37404deabc8589c40c57943aed2b9ba99e15bf8fbd75",
+    "bytes": 19553
   },
   {
     "file": "docs/videos/scene1-ipn-rrt-star.mp4",

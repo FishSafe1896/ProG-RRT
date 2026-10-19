@@ -58,7 +58,7 @@ The data provider confirmed the same source numbering for both scenes:
 
 The longest supplied file in each directory is the main clip. Scene 1 also has shorter versions for ProG-RRT*-Lazy and N-RRT*; these remain separate supplementary edits. Videos are the provided edited materials, not evidence that playback duration equals complete navigation time.
 
-Web copies use 1,280-pixel width, 30 fps, and H.264 encoding without further temporal cropping or speed changes. `data/video_manifest.json` records original and playback byte counts, durations, SHA-256 hashes, and original download links. Original release assets are byte-identical to the supplied files, with descriptive filenames.
+Web copies use 1,280-pixel width, 30 fps, and H.264 encoding without further temporal cropping or speed changes. `data/video_manifest.json` records original and playback byte counts, durations, SHA-256 hashes, and original download links. The `original-videos` branch stores byte-identical copies of the supplied videos with descriptive filenames; keeping these on a separate branch allows a lightweight single-branch download of the main supplement.
 
 ## Log availability and interpretation
 
